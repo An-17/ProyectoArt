@@ -1,0 +1,70 @@
+
+.Redes{
+display: grid;
+grid-template-columns: repeat(2,35% );
+text-align: center;
+margin-left: 21%;
+}
+
+.Cuadros{
+  display: grid;
+  grid-template-columns: repeat(3,30%);
+text-align: center;
+margin-left: 8%;
+
+}
+
+.linea{
+  height:3px;
+  width: 341px;
+  background: linear-gradient(90deg, #000000, #2600ff, #000000); 
+  display: flex;
+  justify-content: center;
+  margin-left: 38%;
+  
+}
+
+.TituloContactanos{
+  color: white;
+  text-align: center;
+}
+
+.Ubicación{
+  color: white;
+}
+
+.Llamanos{
+  color: white;
+}
+
+.Correo{
+  color: white;
+}
+
+.TituloContactanos2{
+  color: white;
+  text-align: center;
+}
+
+.linea2{
+  height:3px;
+  width: 343px;
+  background: linear-gradient(90deg, #000000, #2600ff, #000000); 
+  display: flex;
+  justify-content: center;
+  margin-left: 38%;
+  
+}
+
+.Instagram{
+  color: white;
+}
+
+.Facebook{
+  color: white;
+}
+
+.BotonUbicacion{
+  border: none;
+
+}

@@ -1,0 +1,54 @@
+.Imagen{
+    opacity: 0.4;
+}
+
+.Titulo{
+   text-align: center;
+   color: rgb(255, 255, 255);
+   font-family: serif;
+}
+
+.lineaN{
+    height:3px;
+    width: 341px;
+    background: linear-gradient(90deg, #000000, #2600ff, #000000); 
+    display: flex;
+    justify-content: center;
+    margin-left: 25%;
+    
+}  
+
+.Form{
+    box-shadow: rgba(9, 6, 172, 0.795) 0px 22px 70px 4px;
+    width: 50%;
+    text-align: center;
+    margin-left: 25%;
+    color: white;
+}
+
+.InputNombre{
+    height: 25px;
+    border-radius: 20px;
+
+}
+
+.InputCorreo{
+    height: 25px;
+    border-radius: 20px;
+    
+}
+
+.InputTelefono{
+    height: 25px;
+    border-radius: 20px;
+    
+}
+
+.InputMensaje{
+   height: 100px;
+    width: 50%;
+    border-radius: 20px;
+    
+}
+
+

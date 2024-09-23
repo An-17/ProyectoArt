@@ -1,0 +1,23 @@
+.Container{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    color: white;
+    margin-left: 5%;
+}
+
+.lineaF{
+    color: white;
+}
+
+.Footer{
+    background-color: rgb(27, 27, 27);
+   
+}
+
+.Container2{
+   text-align: center;
+}
+
+.Ubicacion{
+    text-align: center;
+}

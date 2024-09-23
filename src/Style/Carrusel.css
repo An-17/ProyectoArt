@@ -1,0 +1,20 @@
+@media (min-width: 300px) and (max-width: 1000px) {
+    .Img1{
+      width: 600px ;
+
+
+    }
+
+    .Img2{
+        width: 600px ;
+    margin-right: 10%;
+  
+  
+      }
+
+      .Img3{
+        width: 600px ;
+  
+  
+      }
+}

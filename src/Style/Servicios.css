@@ -1,0 +1,12 @@
+.ContenedorServicios{
+    color: white;
+    text-align: center;
+ 
+}
+
+.ImagenesServices{
+    display: grid;
+    grid-template-columns: repeat(2,500px);
+    margin-left: 10%;
+
+}
