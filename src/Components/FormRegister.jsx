@@ -79,7 +79,7 @@ function FormRegister() {
 <div className='ContainerRegister' >
     <div className='FormularioRegister' > 
       <br /><br />
-     <h2>Registrarse</h2>
+     <h2>Registrar un nuevo Administrador</h2>
         <label htmlFor="Username">Nombre</label>
         <br />
         <input
@@ -120,7 +120,7 @@ function FormRegister() {
 
       <br /><br />
       <div id="ninth" className="buttonBox">
-      <button className='BotonLogin'  onClick={Cargar}>Register</button>
+      <button className='BotonLogin'  onClick={Cargar}>Registrar</button>
       </div>
       <br /> <br />
 </div>

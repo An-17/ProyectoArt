@@ -1,5 +1,6 @@
 import React from 'react'
 import '../Style/HomeAdmi.css'
+import {Link} from "react-router-dom";
 
 
 
@@ -17,6 +18,7 @@ function ComponentsAdmi() {
 <br /><br /><br /><br /><br />
 
 <div className="wrapper">
+<Link to= "/Register">
   <button className='BotonAdmi' >
     Registrar un nuevo Usuario
     <span></span>
@@ -24,9 +26,11 @@ function ComponentsAdmi() {
     <span></span>
     <span></span>
   </button>
+  </Link>
 </div>
 
 <div className="wrapperProductos">
+<Link to= "/Productos">
   <button className='BotonProductos'>
     Agregar un nuevo Producto
     <span></span>
@@ -34,9 +38,11 @@ function ComponentsAdmi() {
     <span></span>
     <span></span>
   </button>
+  </Link>
 </div>
 
 <div className="wrapperServicio">
+<Link to= "/Admi">
   <button className='BotonServicios'>
     Agregar un nuevo Servicio
     <span></span>
@@ -44,6 +50,7 @@ function ComponentsAdmi() {
     <span></span>
     <span></span>
   </button>
+  </Link>
 </div>
 <br /><br /><br />
     </div>

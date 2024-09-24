@@ -48,6 +48,8 @@ function NavbarAdmi() {
                       <br />
                       <Nav  ><Link to= "/Login">Iniciar Sesión</Link></Nav>
                       <br />
+                      <Nav  ><Link to= "/HomeAdmi">Home Administración</Link></Nav>
+                      <br />
                       <Nav className='opciones' ><Link to= "/Admi">Añadir Servicio</Link></Nav>
                       <br />
                       <Nav className='opciones' ><Link to= "/Productos">Añadir Producto</Link> </Nav>

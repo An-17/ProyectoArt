@@ -11,8 +11,8 @@ async function GetServices() {
             throw new Error('Error fetching Services');
         }
 
-        const datos = await response.json();
-        return datos;
+        const Datos = await response.json();
+        return Datos;
     } catch (error) {
         console.error('Error fetching Services:', error);
         throw error;

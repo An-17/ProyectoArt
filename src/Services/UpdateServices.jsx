@@ -1,11 +1,11 @@
-async function updateServices(nombre, descripcion,id, imagen) {
+async function UpdateServices(Nombre, Descripcion,id, Imagen) {
     try {
      
         const Services = { 
-            nombre, 
-            descripcion,
+            Nombre, 
+            Descripcion,
             id,
-            imagen
+            Imagen
         
         };
         const response = await fetch("http://localhost:3001/Services/"+id, {
@@ -24,4 +24,4 @@ async function updateServices(nombre, descripcion,id, imagen) {
     }
 }
 
-export{updateServices}
+export{ UpdateServices }

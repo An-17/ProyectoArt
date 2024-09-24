@@ -1,54 +1,134 @@
-.Imagen{
-    opacity: 0.4;
+.Imagen {
+  opacity: 0.4;
 }
 
-.Titulo{
-   text-align: center;
-   color: rgb(255, 255, 255);
-   font-family: serif;
+.Titulo {
+  text-align: center;
+  color: rgb(255, 255, 255);
+  font-family: serif;
 }
 
-.lineaN{
-    height:3px;
-    width: 341px;
-    background: linear-gradient(90deg, #000000, #2600ff, #000000); 
-    display: flex;
-    justify-content: center;
-    margin-left: 25%;
-    
-}  
-
-.Form{
-    box-shadow: rgba(9, 6, 172, 0.795) 0px 22px 70px 4px;
-    width: 50%;
-    text-align: center;
-    margin-left: 25%;
-    color: white;
+.lineaN {
+  height: 3px;
+  width: 341px;
+  background: linear-gradient(90deg, #000000, #2600ff, #000000);
+  display: flex;
+  justify-content: center;
+  margin-left: 25%;
 }
 
-.InputNombre{
-    height: 25px;
-    border-radius: 20px;
-
+.Form {
+  box-shadow: rgba(9, 6, 172, 0.795) 0px 22px 70px 4px;
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+  color: white;
 }
 
-.InputCorreo{
-    height: 25px;
-    border-radius: 20px;
-    
+.InputNombre,
+.InputCorreo,
+.InputTelefono {
+  height: 25px;
+  border-radius: 20px;
 }
 
-.InputTelefono{
-    height: 25px;
-    border-radius: 20px;
-    
+.InputMensaje {
+  height: 100px;
+  width: 50%;
+  border-radius: 20px;
 }
 
-.InputMensaje{
-   height: 100px;
-    width: 50%;
-    border-radius: 20px;
-    
+* {
+  box-sizing: border-box;
 }
 
+.h1 {
+  color: white;
+  margin: 30px auto;
+  width: 50%;
+  text-align: center;
+  padding: 20px;
+  text-transform: uppercase;
+  font-size: 3vw;
+  letter-spacing: 5px;
+  border-top: 1px solid;
+  border-bottom: 1px solid;
+}
+
+.contentBox {
+  margin-left: 80%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.BotonLBox {
+  position: relative;
+  max-width: 200px;
+  min-width: 150px;
+  flex: 20%;
+}
+
+.BotonFormReservar {
+  width: 30%;
+  height: 50px;
+  position: relative;
+  background: rgb(25, 4, 143);
+  text-transform: uppercase;
+  color: white;
+  font-weight: 700;
+  letter-spacing: 1px;
+  border: none;
+  font-size: 15px;
+  outline: none;
+  font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif;
+  cursor: pointer;
+}
+
+#ninth > button {
+  transition: all 0.5s ease-in-out;
+}
+
+#ninth:hover button {
+  background: white;
+  color: hwb(244 4% 35%);
+}
+
+/* Media Queries */
+@media (min-width: 300px) and (max-width: 1000px) {
+
+  .Imagen{
+
+    width: 100%;
+  }
+  .Form {
+      width: 80%; /* Aumentar el ancho del formulario en pantallas más pequeñas */
+      margin-left: 10%; /* Centrar el formulario */
+  }
+
+  .InputMensaje {
+      width: 90%; /* Hacer el input de mensaje más ancho */
+  }
+
+  .h1 {
+      width: 80%; /* Ajustar el ancho del encabezado */
+      font-size: 5vw; /* Aumentar el tamaño de fuente para pantallas más pequeñas */
+  }
+
+  .contentBox {
+      margin-left: 0; /* Quitar margen izquierdo para centrar */
+      flex-direction: column; /* Apilar elementos verticalmente */
+      align-items: center; /* Centrar los elementos */
+  }
+
+  .BotonFormReservar {
+      width: 80%; /* Hacer el botón más ancho */
+  }
+
+  .lineaN {
+      width: 80%; /* Hacer la línea más ancha */
+      margin-left: 10%; /* Centrar la línea */
+  }
+}
 

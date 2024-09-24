@@ -1,70 +1,96 @@
-
-.Redes{
-display: grid;
-grid-template-columns: repeat(2,35% );
-text-align: center;
-margin-left: 21%;
-}
-
-.Cuadros{
+.Redes {
   display: grid;
-  grid-template-columns: repeat(3,30%);
-text-align: center;
-margin-left: 8%;
-
+  grid-template-columns: repeat(2, 35%);
+  text-align: center;
+  margin-left: 21%;
 }
 
-.linea{
-  height:3px;
+.Cuadros {
+  display: grid;
+  grid-template-columns: repeat(3, 30%);
+  text-align: center;
+  margin-left: 8%;
+}
+
+.linea {
+  height: 3px;
   width: 341px;
-  background: linear-gradient(90deg, #000000, #2600ff, #000000); 
+  background: linear-gradient(90deg, #000000, #2600ff, #000000);
   display: flex;
   justify-content: center;
   margin-left: 38%;
-  
 }
 
-.TituloContactanos{
+.TituloContactanos {
   color: white;
   text-align: center;
 }
 
-.Ubicación{
+.Ubicación {
   color: white;
 }
 
-.Llamanos{
+.Llamanos {
   color: white;
 }
 
-.Correo{
+.Correo {
   color: white;
 }
 
-.TituloContactanos2{
+.TituloContactanos2 {
   color: white;
   text-align: center;
 }
 
-.linea2{
-  height:3px;
+.linea2 {
+  height: 3px;
   width: 343px;
-  background: linear-gradient(90deg, #000000, #2600ff, #000000); 
+  background: linear-gradient(90deg, #000000, #2600ff, #000000);
   display: flex;
   justify-content: center;
   margin-left: 38%;
-  
 }
 
-.Instagram{
+.Instagram {
   color: white;
 }
 
-.Facebook{
+.Facebook {
   color: white;
 }
 
-.BotonUbicacion{
+.BotonUbicacion {
   border: none;
+}
 
+/* Media Queries */
+@media (min-width: 300px) and (max-width: 1000px) {
+  .Redes {
+    grid-template-columns: 1fr; /* Cambiar a una columna para pantallas pequeñas */
+    margin-left: 5%; /* Ajustar margen */
+  }
+
+  .Cuadros {
+    grid-template-columns: repeat(1, 45%); /* Dos columnas en lugar de tres */
+    margin-left: 35%; /* Ajustar margen */
+  }
+
+  .linea, .linea2 {
+    width: 80%; /* Aumentar el ancho de las líneas para que se ajusten mejor */
+    margin-left: 10%; /* Centrar las líneas */
+  }
+
+  .TituloContactanos, .TituloContactanos2 {
+    font-size: 24px; /* Aumentar el tamaño del título */
+  }
+
+  .Ubicación, .Llamanos, .Correo, .Instagram, .Facebook {
+    font-size: 18px; /* Ajustar tamaño de fuente para mejor legibilidad */
+  }
+
+  .BotonUbicacion {
+    width: 100%; /* Botón ocupa todo el ancho */
+    padding: 10px; /* Añadir padding */
+  }
 }

@@ -1,10 +1,10 @@
-async function PostServices(nombre,descripcion,imagen) {
+async function PostServices(Nombre,Descripcion,Imagen) {
     try {
      
-        const datos = { 
-           nombre,
-           descripcion,
-           imagen
+        const Datos = { 
+           Nombre,
+           Descripcion,
+           Imagen
         
         };
 
@@ -13,7 +13,7 @@ async function PostServices(nombre,descripcion,imagen) {
             headers: {
                 'Content-Type': 'application/json'
             },
-            body: JSON.stringify(datos)
+            body: JSON.stringify(Datos)
         });
 
      

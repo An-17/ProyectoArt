@@ -18,7 +18,7 @@ function HomeComponents() {
 
  <div className='Texto'>
   <br /> <br /> 
-<h1 className='Titulo' >¿Que es Art?</h1>
+<h1 className='Titulo' >¿Quienes Somos?</h1>
 
 <p className='Parrafo' >Art Barber Shop es una barbería de origen local, establecida en Nosara barrio Arenales por Jeank Ruiz. Nos especializamos en una amplia gama de cortes de cabello, desde estilos modernos y clásicos hasta opciones innovadoras y personalizadas. Nuestro enfoque combina arte y elegancia, ofreciendo una experiencia distintiva y de alta calidad, todo bajo una filosofía de excelencia y dedicación. </p>
 </div>

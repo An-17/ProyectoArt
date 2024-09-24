@@ -18,7 +18,16 @@ function HomeAdmi() {
     <div>
         <NavbarAdmi/>
         <ComponentsAdmi/>
-        <button onClick={cerrarSesion}>Cerrar Sesión</button>
+        <div className="wrapper">
+  <button className='BotonCerrarSesion' onClick={cerrarSesion} >
+   Cerrar Sesion
+    <span></span>
+    <span></span>
+    <span></span>
+    <span></span>
+  </button>
+</div>
+<br /><br />
         <FooterHome/>
      
     </div>

@@ -59,15 +59,11 @@ const FormReservar = () => {
         <input type='text' name="Mensaje" placeholder="Escribir un Mensaje" className='InputMensaje' required /><br /><br />
 
 
-        <div className="Boton">
-  <button>
-    Enviar! 
-    <span></span>
-    <span></span>
-    <span></span>
-    <span></span>
-  </button>
-</div>
+    <div id="ninth" className="buttonBox" >
+
+        <button className='BotonFormReservar' >Enviar</button>
+
+    </div>
       </form><br /><br />
     </div>
     </div>
